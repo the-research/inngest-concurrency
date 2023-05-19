@@ -40,7 +40,7 @@ function step2() {
         async ({event, step}) => {
             await step.sleep('3s');
             console.log(`hello from counter: ${event.data.counter}`);
-            return { country: event.data.counter };
+            return { counter: event.data.counter };
         }
     );
 }
