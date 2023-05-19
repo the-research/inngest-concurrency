@@ -7,7 +7,7 @@ Create 2 functions:
 
 ### Expected Behaviour
 To see Step2 run with concurrency of 2.
-Should finish in 12 seconds (10 missions / 2 concurrently * 3 seconds sleep => ~15 seconds).
+Should finish in 15 seconds (10 missions / 2 concurrently * 3 seconds sleep => ~15 seconds).
 
 ### Actual Behaviour
 Step2 run everything at once, both in local & production, thus, it finish everything in 3 seconds instead of ~15 seconds.
