@@ -2,7 +2,7 @@
 
 ### What I am trying to do?
 Create 2 functions:
-1. Step1 - Will trigger step2 10 times
+1. Step1 - Will trigger Step2 10 times
 2. Step2 - Will run with concurrency of 2.
 
 ### Expected Behaviour

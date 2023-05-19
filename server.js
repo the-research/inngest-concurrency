@@ -39,7 +39,7 @@ function step2() {
         {event: `step2-requested`},
         async ({event, step}) => {
             await step.sleep('3s');
-            console.log(`hello from counter: ${event.data.counter}`);
+            console.log(`Hello from counter: ${event.data.counter}`);
             return { counter: event.data.counter };
         }
     );
